@@ -1,0 +1,13 @@
+lista_de_musicas = []
+lista_de_musicas.append("Love me again - V") 
+lista_de_musicas.insert(1, "Wish - Choi Yu Hee")
+lista_de_musicas.insert(2, "Sorry - The rose")
+lista_de_musicas.insert(3, "Forever star - Zhang Yihao")
+print(f"Playlist:{lista_de_musicas}")
+lista_de_musicas.pop(1)
+lista_de_musicas.append("Christman Tree - V")
+print(f"Playlist:{lista_de_musicas}")
+print(f"\nTocando a musica '{lista_de_musicas[1]}' da posicao {1} da lista\n")
+lista_de_musicas.clear()
+print("\nExcluindo toda a playlist...\n")
+print(f"Playlist: {lista_de_musicas}")
